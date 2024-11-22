@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+    fontFamily: {
+      updock:['Updock','cursive']
+    },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        black0:"#181C14",
       },
     },
   },
